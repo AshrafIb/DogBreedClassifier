@@ -2,6 +2,7 @@
 
 This repository is for my Udacity Data Science Nanodegree Capstone project. In this project it was about setting up a CNN, which can identify dog breeds. 
 A detailed discussion of my approach can be found on Medium: 
+https://medium.com/@ashraf.menteribrahim/dog-or-human-that-is-the-question-cb14191d95e7
 
 # 1. Motivation and Overview
 
