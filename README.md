@@ -34,7 +34,7 @@ To use the notebook, you must follow some steps:
 
 Accuracy of final Model is about 81%. This model is based on the pre-trained InceptionV3.  
 
-## 6 Requierements
+## 5 Requierements
 
 + Scikit-learn  
 + Numpy 
