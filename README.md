@@ -1,14 +1,29 @@
-# DogBreedClassifier
+# Data Scientist Nanodegree
 
-This repository is for my Udacity Data Science Nanodegree Capstone project. In this project it was about setting up a CNN, which can identify dog breeds. 
+## Capstone Project DogBreedClassifier
+
+Ashraf Ibrahim 
+14.07.2020
+
+# Project Overview
+
+This analysis creates a CNN which can be used as a web app or mobile app to classify images of dogs in real time and provide an estimate of the dog breed. 
+If there is a human on the photo, a statement is made about which dog breed it resembles.
 A detailed discussion of my approach can be found on Medium: 
 https://medium.com/@ashraf.menteribrahim/dog-or-human-that-is-the-question-cb14191d95e7
 
-# 1 Motivation and Overview
+# Motivation
 
-The motivation was to create a CNN, which can classify dog breeds via images, based on the pre-trained InceptionV3 model. The underlying Dataset consists roughly of 8400 images of dogs from 133 different breeds. 
+My motivation in this project is to gain experience in setting up CNN's. I also find it exciting to work with the idea of transfer learning and to understand how to build on already trained models. 
 
-# 2 Installation 
+# Problem Statement 
+
+The main aim of this project is to set up a classifier which is able to recognize by means of dog pictures which breed this dog belongs to. This is done with the help of a Convolutional Neural Network. 
+
+
+
+
+# Instructions to run the Project
 
 To use the notebook, you must follow some steps: 
 
@@ -19,22 +34,7 @@ To use the notebook, you must follow some steps:
 5. Download the [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz). Place it in the repo `path/to/dog-project/bottleneck_features`.
 
 
-# 3 Steps of Analysis
-
-1. Detecting Humans (based on OpenCV's Face-     Classifier) 
-2. Detecting Dogs (using ResNet-50 pretrained Model)
-3. Create a CNN from Scratch 
-4. Using a pre-trained CNN
-5. Using another pre-trained CNN 
-6. Writing my final Algorithm 
-7. Testing my Model
-8. Final Thoughts
-
-## 4 Model Performance
-
-Accuracy of final Model is about 81%. This model is based on the pre-trained InceptionV3.  
-
-## 5 Requierements
+## Requierements
 
 + Scikit-learn  
 + Numpy 
@@ -42,7 +42,6 @@ Accuracy of final Model is about 81%. This model is based on the pre-trained Inc
 + random
 + glob
 + keras 
-+ tensorflow
 + cv2
 + matplotlib 
 + tqdm
