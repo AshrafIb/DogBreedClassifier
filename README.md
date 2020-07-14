@@ -44,9 +44,9 @@ Firstly, pre-processing consists of rescaling incoming images to the format 224*
 
 ## Implementation 
 
-The first CNN, without transfer-learning, consisted of 14 layers in total, the architecture is well visible, and went through 20 epochs. Herewith an accuracy of 9.9282% was achieved. 
+The first CNN, without transfer-learning, consisted of 14 layers in total, the architecture is well visible, and went through 20 epochs. Herewith an accuracy of 11% was achieved. 
 The second model is based on a pre-trained model, specifically the VGG-16, and achieved an accuracy of 38.2775% with 20 epochs. This is a considerable improvement over the first model, but still not satisfactory, as it means that in 60% of cases, images are incorrectly classified. 
-In the last model transfer-learning is used again, in this case based on an InceptionV3. This is enhanced by a GlobalAveragePooling2D and a dropout layer and achieves an accuracy of 81.10% in 20 epochs, which is a significant improvement.
+In the last model transfer-learning is used again, in this case based on an InceptionV3. This is enhanced by a GlobalAveragePooling2D and a dropout layer and achieves an accuracy of 83% in 25 epochs, which is a significant improvement.
 
 
 ## Refinement 
