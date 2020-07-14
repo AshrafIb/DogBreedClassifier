@@ -12,6 +12,8 @@ If there is a human on the photo, a statement is made about which dog breed it r
 A detailed discussion of my approach can be found on Medium: 
 https://medium.com/@ashraf.menteribrahim/dog-or-human-that-is-the-question-cb14191d95e7
 
+The analysis uses pre-trained models to detect dogs and humans in images and builds a CNN to identify dog-breeds. This analysis illustrates the advantages of using pre-trained CNN when classifiying images. 
+
 # Motivation
 
 My motivation in this project is to gain experience in setting up CNN's. I also find it exciting to work with the idea of transfer learning and to understand how to build on already trained models. 
