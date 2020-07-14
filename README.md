@@ -23,7 +23,7 @@ If there is no dog or human in the image, CNN should be able to detect this and 
 
 # Metrics
 
-During the training the categorical crossentropy was used as metric. This metric is suitable to be used as loss-function, if a multi-class classification is available.
+During the training the categorical crossentropy was used as a loss-function. This metric is suitable to be used as loss-function, if a multi-class classification is available.
 More can be read here: https://machinelearningmastery.com/cross-entropy-for-machine-learning/ .
 The final performance of the model was evaluated with the metric of accuracy. Unless unbalanced data is provided, this is a satisfactory metric. This metric reflects the proportion of correctly estimated cases based on all cases. In this case the accuracy score reflects the percentage of correctly classified dog breeds.
 
@@ -56,7 +56,7 @@ The addition of further dense layers has worsened the final accuracy, so that th
 
 As described above, the InceptionV3 with another Global Average Pooling layer and a dropout layer achieves an accuracy of 81% in the estimation of test data. 
 The additional images I added were also correctly estimated, with two exceptions. These two exceptions are a picture shot from a difficult perspective and a picture showing Chewy (a real stress test for the algorithm).
-Accordingly, the InceptionV3 performs significantly better than expected. 
+Accordingly, the InceptionV3 performs significantly better than expected. This Resulst exceeds the given benchmark of 60%. 
 
 # Further improvements 
 
@@ -92,4 +92,5 @@ To use the notebook, you must follow some steps:
 + PIL
 + InceptionV3
 
-
+Copyrights:
+License is given in Repository. For usage guidelines, please refer to https://www.udacity.com/legal
